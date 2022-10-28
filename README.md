@@ -3,7 +3,7 @@
 - 🌱 I’m currently persuing Bachelor of technology from sharda university
 - 💞️ I’m looking for a internship 
 - 📫 How to reach me ...
-   Linked in :  https://www.linkedin.com/in/shubham-kumar-prajapati-2486b7129
+   Linked in :  https://www.linkedin.com/in/shubham-kumar-prajapati-2486b7129<br>
    Email : jackwill021@gmail.com
 
 <!---
