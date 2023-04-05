@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @playkashyap
-- 👀 I’m interested in WEB development. both in front end and backend
+- 👀 I’m a Front End developer, Learning Backend
 - 🌱 I’m currently persuing Bachelor of technology from sharda university
-- 💞️ I’m looking for a internship 
+- 💞️ I’m Currently working in CosmotechAi
 - 📫 How to reach me ...<br>
   - Linked in :  https://www.linkedin.com/in/shubham-kumar-prajapati-2486b7129<br>
   - Email : jackwill021@gmail.com
