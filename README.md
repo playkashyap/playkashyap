@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @playkashyap
 - 👀 I’m a Front End developer, Learning Backend
-- 🌱 I’m currently persuing Bachelor of technology from sharda university
 - 💞️ I’m Currently working in CosmotechAi
 - 📫 How to reach me ...<br>
   - Linked in :  https://www.linkedin.com/in/shubham-kumar-prajapati-2486b7129<br>
