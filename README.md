@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @playkashyap
 - 👀 I’m a Front End developer, Learning Backend
-- 💞️ I’m Currently working in CosmotechAi
+- 💞️ I’m Currently working in MostEdge
 - 📫 How to reach me ...<br>
   - Linked in :  https://www.linkedin.com/in/shubham7080 <br>
   - Email : jackwill021@gmail.com <br>
