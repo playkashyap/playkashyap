@@ -30,7 +30,7 @@ const shubham = {
   currentlyAt: "Mostedge",
   building: [
     "Surveillance Platform → GPU-accelerated video analytics: face recognition, theft & safety detection",
-    "MEKO                  → Custom vLLM hosting, fine-tuning, context analysis pipelines",
+    "LLM Infra Platform    → Custom vLLM hosting, fine-tuning, context analysis pipelines",
     "LUNA                  → Local emotion-aware AI assistant (Whisper + InsightFace + Llama.cpp)",
     "DevForge              → AI-native developer workbench, live at devforge.playkashyap.com"
   ],
@@ -54,7 +54,7 @@ Microservice-based real-time surveillance system with face recognition, theft de
 </td>
 <td width="50%" valign="top">
 
-**🧠 MEKO — Custom LLM Hosting**
+**🧠 Custom LLM Hosting Platform**
 Self-hosted vLLM inference stack with model fine-tuning and context analysis pipelines. Runtime model switching across multiple models, self-hosted on RunPod via Tailscale.
 
 `vLLM` `Ollama` `Angular` `RunPod` `Tailscale`
