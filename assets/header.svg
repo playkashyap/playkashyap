@@ -1,0 +1,53 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#11162a;#0d1117" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#1a1f3a">
+        <animate attributeName="stop-color" values="#1a1f3a;#241a3a;#1a1f3a" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.18">
+        <animate attributeName="stop-color" values="#00d4ff;#7c3aed;#00d4ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.18">
+        <animate attributeName="stop-color" values="#7c3aed;#00d4ff;#7c3aed" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#bgGrad)"/>
+
+  <!-- Wave layer 1 — drifts horizontally -->
+  <path fill="url(#waveGrad)">
+    <animate attributeName="d"
+      values="
+        M0,170 C200,130 350,210 600,170 C850,130 1000,200 1200,160 L1200,220 L0,220 Z;
+        M0,165 C200,210 350,130 600,180 C850,210 1000,140 1200,175 L1200,220 L0,220 Z;
+        M0,170 C200,130 350,210 600,170 C850,130 1000,200 1200,160 L1200,220 L0,220 Z"
+      dur="9s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Wave layer 2 — drifts opposite phase -->
+  <path fill="#00d4ff" fill-opacity="0.08">
+    <animate attributeName="d"
+      values="
+        M0,190 C220,160 400,220 650,185 C880,155 1020,210 1200,180 L1200,220 L0,220 Z;
+        M0,195 C220,215 400,155 650,195 C880,225 1020,165 1200,200 L1200,220 L0,220 Z;
+        M0,190 C220,160 400,220 650,185 C880,155 1020,210 1200,180 L1200,220 L0,220 Z"
+      dur="7s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Text group with subtle glow pulse (always visible, never starts hidden) -->
+  <g opacity="1">
+    <text x="600" y="95" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#00d4ff" text-anchor="middle">
+      Shubham Kumar Prajapati
+      <animate attributeName="fill" values="#00d4ff;#4de3ff;#00d4ff" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="135" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#8b9ab0" text-anchor="middle">
+      Fullstack Developer &amp; AI/LLM Engineer
+    </text>
+  </g>
+</svg>
